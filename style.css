@@ -1,0 +1,67 @@
+/* Style de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Canvas */
+  canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid white;
+  }
+  
+  /* Leaderboard */
+  #leaderboard-container {
+    margin-top: 20px;
+  }
+  
+  #leaderboard-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #leaderboard-list li {
+    margin: 5px 0;
+  }
+  
+  #leaderboard-list button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  #leaderboard-list button:hover {
+    background-color: darkred;
+  }
+  
+  /* Formulaire pour entrer le nom */
+  #name-form {
+    margin-top: 20px;
+  }
+  
+  #name-form input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #name-form button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  #name-form button:hover {
+    background-color: darkgreen;
+  }
+  

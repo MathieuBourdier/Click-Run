@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click and Run</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Click and Run</h1>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <div id="leaderboard-container">
+    <h2>Leaderboard</h2>
+    <ul id="leaderboard-list"></ul>
+  </div>
+  <form id="name-form" style="display: none;">
+    <p>Game Over! Your score: <span id="final-score"></span></p>
+    <label for="player-name">Enter your name:</label>
+    <input type="text" id="player-name" />
+    <button type="button" onclick="submitScore()">Submit</button>
+  </form>
+  <p>Score: <span id="score">0</span></p>
+  <script src="script.js"></script>
+</body>
+</html>
